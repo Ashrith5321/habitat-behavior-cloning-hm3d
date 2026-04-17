@@ -1,4 +1,4 @@
-# habitat-behavior-cloning-hm3d# PIRLNav ObjectNav Imitation Learning — Full Technical README
+# PIRLNav ObjectNav Imitation Learning — Full Technical README
 
 ## What This Project Is
 
