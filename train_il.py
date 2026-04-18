@@ -205,6 +205,7 @@ def train_episode(env, policy, optimizer, replay, iw_coeff, device):
 
     # Inflection weights: iw_coeff at direction changes, 1.0 otherwise
     weights = [1.0] * len(action_seq)
+    
     for i in range(1, len(action_seq)):
         if action_seq[i] != action_seq[i - 1]:
             weights[i] = iw_coeff
